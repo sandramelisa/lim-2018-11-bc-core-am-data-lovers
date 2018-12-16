@@ -2,8 +2,15 @@
 const containerList = document.getElementById('container-list');
 
 let arrayPokemon = POKEMON.pokemon;
+//USANDO EL MAP PARA MOSTRAR LOS NOMBRES DE LOS POKEMONES
+let pokemon = arrayPokemon.map((x) => x.name);
+console.log(pokemon);
+containerList.innerHTML = pokemon;
 
-const crearTemplateDePokemon = (data) => {
+
+
+
+/*const crearTemplateDePokemon = (data) => {
   let templateListOfPokemon = '';
   // recorremos nuestro array con forEach
   data.forEach((arrayPokemon) => {
@@ -31,3 +38,4 @@ const crearTemplateDePokemon = (data) => {
 
 // ejecuntado funciona para pintar la data en mi html
 crearTemplateDePokemon(arrayPokemon)
+*/
