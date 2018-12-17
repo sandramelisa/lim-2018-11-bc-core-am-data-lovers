@@ -3,14 +3,28 @@ const containerList = document.getElementById('container-list');
 
 let arrayPokemon = POKEMON.pokemon;
 //USANDO EL MAP PARA MOSTRAR LOS NOMBRES DE LOS POKEMONES
-let pokemon = arrayPokemon.map((x) => x.name);
-console.log(pokemon);
-containerList.innerHTML = pokemon;
+let namesPokemon = arrayPokemon.map((x) => x.name);
+containerList.innerHTML = namesPokemon;
 
+//ejemplo de objeto para convertirlo en array y llamar su elemto objeto
+const objeto = {
+    abecedario: [   {nombre:'Sandra', apellido:'Sanchez'}   ]
+};
+let arrayObjeto = objeto.abecedario;
+let nombre = arrayObjeto.map((x) => {return x.apellido});
+console.log(nombre);
 
+//imprimiendo los ids y nombres en forma de lista
+for(let i = 0 ; i < arrayPokemon.length ; i++){
+  let id = arrayPokemon.map((x) => x.id);
+  let name = arrayPokemon.map((x) => x.name);
 
+  console.log(id[i]);
+  console.log(name[i]);
 
-/*const crearTemplateDePokemon = (data) => {
+}
+//EJEMPLO DE DANI
+const crearTemplateDePokemon = (data) => {
   let templateListOfPokemon = '';
   // recorremos nuestro array con forEach
   data.forEach((arrayPokemon) => {
@@ -35,6 +49,7 @@ containerList.innerHTML = pokemon;
   })
   containerList.innerHTML = templateListOfPokemon;
 }
+
 
 // ejecuntado funciona para pintar la data en mi html
 crearTemplateDePokemon(arrayPokemon)
