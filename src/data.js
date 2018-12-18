@@ -1,12 +1,12 @@
  // esta es una función de ejemplo
 // puedes ver como agregamos la función a nuestro objeto global window
 /*
-const example = () => {
+var example = () => {
   return 'example';
 };
 
 window.example = example;
-*/
+
 
 let arrayPokemon = POKEMON.pokemon;
 const containerList = document.getElementById('container-list');
