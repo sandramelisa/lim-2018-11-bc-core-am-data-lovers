@@ -1,6 +1,6 @@
  // esta es una función de ejemplo
 // puedes ver como agregamos la función a nuestro objeto global window
-/*
+
 var example = () => {
   return 'example';
 };
@@ -24,7 +24,7 @@ const crearTemplateDeCard = (data) => {
             <h4 class="post-category">${ personaje.id }</h4>
             <h3 class="post-title">${ personaje.name }</h3>
             <p class="post-description">
-              Probabilidad ${ personaje.avg_spawns}
+              Probabilidad de verlo ${ personaje.avg_spawns}
             </p>
             <p class="post-author">Debilidades ${ personaje.weaknesses }</p>
           </div>
