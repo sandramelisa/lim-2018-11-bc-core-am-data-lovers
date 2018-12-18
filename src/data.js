@@ -24,9 +24,9 @@ const crearTemplateDeCard = (data) => {
             <h4 class="post-category">${ personaje.id }</h4>
             <h3 class="post-title">${ personaje.name }</h3>
             <p class="post-description">
-              Probabilidad de verlo ${ personaje.avg_spawns}
+              average spawn ${ personaje.avg_spawns}
             </p>
-            <p class="post-author">Debilidades ${ personaje.weaknesses }</p>
+            <p class="post-author">weaknesses ${ personaje.weaknesses }</p>
           </div>
         </article>
       </div>
