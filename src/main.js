@@ -1,6 +1,4 @@
-
 const containerList = document.getElementById('container-list');
-
 let arrayPokemon = POKEMON.pokemon;
 //USANDO EL MAP PARA MOSTRAR LOS NOMBRES DE LOS POKEMONES
 let namesPokemon = arrayPokemon.map((x) => x.name);
@@ -21,7 +19,6 @@ for(let i = 0 ; i < arrayPokemon.length ; i++){
 
   console.log(id[i]);
   console.log(name[i]);
-
 }
 //EJEMPLO DE DANI
 const crearTemplateDePokemon = (data) => {
