@@ -1,2 +1,4 @@
 ##historia de usuario 1
-![Con titulo](historia de usuario1.PNG)
+
+![Imagen1][1]
+[1]: pagina1.PNG
