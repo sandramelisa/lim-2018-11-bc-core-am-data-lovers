@@ -19,12 +19,10 @@ const crearTemplateDeCard = (data) => {
     const card = `
             <div class="card-link">
 
-            <label class="post-category">${ personaje.id }</label>
             <label class="post-title">${ personaje.name }</label>
             <img class="post-image" src="${ personaje.img }" />
-            <label class="post-description">
-              average spawn ${ personaje.avg_spawns}</label>
-            <label class="post-author">weaknesses ${ personaje.weaknesses }</label>
+
+  
             </div>
     `;
     // vamos concatenando cada li
