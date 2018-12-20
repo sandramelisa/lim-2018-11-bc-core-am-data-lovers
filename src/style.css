@@ -1,0 +1,24 @@
+
+body {
+
+  background-color:#335EFF;
+  text-align: center;
+}
+.container{
+  width: 100%;
+  height: 100%;
+}
+.card-link {
+  display: inline-table;
+  width: 150px;
+  height: 250px;
+  margin left: 50px;
+  background-color: #33FF52;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.post-image {
+  padding-left: 20px;
+  height: 50%;
+
+}
