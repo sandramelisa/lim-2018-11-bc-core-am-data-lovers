@@ -7,9 +7,12 @@
   width: 150px;
   height: 250px;
   margin left: 50px;
-  background-color: blue;
+  background-color: #33FF52;
   margin-bottom: 50px;
 }
 .post-image {
   padding-left: 80px;
+  align-items: center;
+  height: 50%; 
+
 }

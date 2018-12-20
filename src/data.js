@@ -18,9 +18,10 @@ const crearTemplateDeCard = (data) => {
     // creamos un template(string) por cada elemento del array
     const card = `
             <div class="card-link">
-            <img class="post-image" src="${ personaje.img }" />
+
             <label class="post-category">${ personaje.id }</label>
             <label class="post-title">${ personaje.name }</label>
+            <img class="post-image" src="${ personaje.img }" />
             <label class="post-description">
               average spawn ${ personaje.avg_spawns}</label>
             <label class="post-author">weaknesses ${ personaje.weaknesses }</label>
