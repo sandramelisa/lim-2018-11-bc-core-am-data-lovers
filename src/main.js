@@ -9,7 +9,7 @@ const crearPlantilla = (data) => {
   data.forEach((funcionData) => {
     const carta = `
     <div class = "card-link">
-    ${funcionData.name}
+    <label class="post-title">${ funcionData.name }</label>
     <img class="post-image" src="${ funcionData.img }" />
     </div>
     `;
