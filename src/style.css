@@ -1,8 +1,10 @@
 
 body {
-
-  background-color:#335EFF;
+  background-image: url(http://www.hdfondos.eu/pictures/2012/0221/1/pokemon-fields-ruby-1920x1200-wallpaper-507673.jpg);
   text-align: center;
+}
+.logo{
+  height: 120px;
 }
 .container{
   width: 100%;
@@ -11,14 +13,26 @@ body {
 .card-link {
   display: inline-table;
   width: 150px;
-  height: 250px;
-  margin left: 50px;
-  background-color: #33FF52;
-  margin-bottom: 50px;
+  height: 160px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 179, 0.5);
+  padding:inherit;
+  margin-bottom: 20px;
+  padding-top: 20px;
   text-align: center;
 }
+.post-title {
+  font-family:sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size-adjust: auto;
+  font-size: 20px;
+  text-align: center;
+  text-decoration-style: solid;
+}
 .post-image {
-  padding-left: 20px;
-  height: 50%;
+  padding:inherit;
+  margin: auto;
+  height: 60%;
 
 }
