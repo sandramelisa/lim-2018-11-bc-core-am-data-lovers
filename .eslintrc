@@ -5,13 +5,7 @@
   "parserOptions": {
     "ecmaVersion": 6
   },
-  "extends": "eslint:recommended",
-  "globals": {
-    "example": false
-  }
-}
-
-"rules": {
+  "rules": {
     "allowTernary": true,
     "linebreak-style": 0,
     "global-require": 0,
@@ -40,3 +34,10 @@
     "no-const-assign": "error",
     "no-var": "error"
  },
+  "extends": "eslint:recommended",
+  "globals": {
+    "example": false,
+    "pokemon": false,
+    "POKEMON": false
+  }
+}
