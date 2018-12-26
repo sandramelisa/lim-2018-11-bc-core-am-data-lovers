@@ -5,7 +5,12 @@ const mostrarPropiedad = (data) => {
   }
   return arrayMostrar;
 };
+const filtrarPropiedad = () => {
+  let arrayFiltrar = [];
+  return arrayFiltrar;
+};
 
 window.pokemon = {
   mostrarPropiedad,
+  filtrarPropiedad,
 };
