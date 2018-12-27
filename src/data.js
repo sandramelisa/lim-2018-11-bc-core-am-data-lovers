@@ -6,19 +6,19 @@ const mostrarPropiedad = (data) => {
   return arrayMostrar;
 };
 
-const filtrarPropiedad = (data) => {
+const filtrarPropiedad = (data, tipo) => {
   let arrayFiltrar = [];
   arrayFiltrar = data
     .filter((ele) => {
-        for (let i = 0 ; i < ele.weaknesses.length ; i++){
-        if(ele.weaknesses[i] === tipoPokemon.value){
+      for (let i = 0 ; i < ele.weaknesses.length ; i++) {
+        if (ele.weaknesses[i] === tipo) {
           return true;
         }
       }
     })
-  .map((ele) => {
-    return `${ele.id} ${ele.name}`;
-  });
+    .map((ele) => {
+      return `${ele.id} ${ele.name}`;
+    });
   return arrayFiltrar;
 };
 

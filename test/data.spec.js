@@ -8,11 +8,11 @@ const input = [
   {id: 49, name: 'Venomoth', img: 'http://www.serebii.net/pokemongo/pokemon/049.png',
     weaknesses: ['Fire', 'Flying', 'Psychic', 'Rock']}
 ];
-const output = [
-  {id: '1', name: 'Bulbasaur', img: 'http://www.serebii.net/pokemongo/pokemon/001.png'},
-  {id: '2', name: 'Ivysaur', img: 'http://www.serebii.net/pokemongo/pokemon/002.png'},
-  {id: '49', name: 'Venomoth', img: 'http://www.serebii.net/pokemongo/pokemon/049.png'}
-];
+// const output = [
+//   {id: '1', name: 'Bulbasaur', img: 'http://www.serebii.net/pokemongo/pokemon/001.png'},
+//   {id: '2', name: 'Ivysaur', img: 'http://www.serebii.net/pokemongo/pokemon/002.png'},
+//   {id: '49', name: 'Venomoth', img: 'http://www.serebii.net/pokemongo/pokemon/049.png'}
+// ];
 
 describe('pokemon', () => {
   it('is an object', () => {
