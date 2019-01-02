@@ -8,26 +8,15 @@ const input = [
   {id: 49, name: 'Venomoth', img: 'http://www.serebii.net/pokemongo/pokemon/049.png',
     weaknesses: ['Fire', 'Flying', 'Psychic', 'Rock'], type: ['Bug', 'Poison']}
 ];
-// const type = ['Water', 'Bug', 'Dragon', 'Electric', 'Ghost', 'Fire', 'Ice', 'Fighting',
-//   'Grass', 'Psychic', 'Rock', 'Ground', 'Poison', 'Flying'];
-// const output = [
-//   {id: '1', name: 'Bulbasaur', img: 'http://www.serebii.net/pokemongo/pokemon/001.png'},
-//   {id: '2', name: 'Ivysaur', img: 'http://www.serebii.net/pokemongo/pokemon/002.png'},
-//   {id: '49', name: 'Venomoth', img: 'http://www.serebii.net/pokemongo/pokemon/049.png'}
-// ];
+
 const type = 'Grass';
-// const input1 = [
-//   {id: 1, name: 'Bulbasaur', img: 'http://www.serebii.net/pokemongo/pokemon/001.png',
-//     weaknesses: ['Fire', 'Ice', 'Flying', 'Psychic'], type: 'Grass'},
-//   {id: 2, name: 'Ivysaur', img: 'http://www.serebii.net/pokemongo/pokemon/002.png',
-//     weaknesses: ['Fire', 'Ice', 'Flying', 'Psychic'], type: 'Grass'}
-// ];
+
 const output = [
   {id: 1, name: 'Bulbasaur', img: 'http://www.serebii.net/pokemongo/pokemon/001.png',
     weaknesses: ['Fire', 'Ice', 'Flying', 'Psychic'], type: ['Grass', 'Poison']},
   {id: 2, name: 'Ivysaur', img: 'http://www.serebii.net/pokemongo/pokemon/002.png',
     weaknesses: ['Fire', 'Ice', 'Flying', 'Psychic'], type: ['Grass', 'Poison']},
-  ];
+];
 
 describe('pokemon', () => {
   it('is an object', () => {

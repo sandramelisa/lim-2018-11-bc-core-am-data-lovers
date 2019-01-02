@@ -13,8 +13,8 @@ const crearPlantilla = (data) => {
   data.forEach((data) => {
     let carta = `
     <div class = "card-link">
-    <label class="post-title">${ data.name }</label>
-    <img class="post-image" src="${ data.img }" />
+    <label class="name">${ data.name }</label>
+    <img class="image" src="${ data.img }" />
     </div>
     `;
     plantilla += carta;
@@ -25,8 +25,11 @@ crearPlantilla(arrayMostrado);
 
 const filtrarTipo = () => {
   const arrayFiltrado = pokemon.filtrarPropiedad(arrayPokemon, tipoPokemon.value);
-  // console.log(arrayFiltrado);
-  crearPlantilla(arrayFiltrado);
+  if(tipoPokemon.value === 'Selecciona tipo pokemon'){
+    crearPlantilla(arrayMostrado);
+  }else {
+    crearPlantilla(arrayFiltrado);
+    }
 };
 
 btnFiltrar.addEventListener('click', filtrarTipo);
