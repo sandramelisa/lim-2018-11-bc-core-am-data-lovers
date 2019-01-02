@@ -11,7 +11,7 @@ body {
   height: 100%;
 }
 .card-link {
-  display: inline-table;
+  display: inline-grid;
   width: 150px;
   height: 160px;
   border-radius: 25px;
@@ -31,8 +31,8 @@ body {
   text-decoration-style: solid;
 }
 .post-image {
-  padding:inherit;
+  padding-bottom: 90px;
   margin: auto;
-  height: 60%;
+  height: 100%;
 
 }

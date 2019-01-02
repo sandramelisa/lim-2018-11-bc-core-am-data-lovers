@@ -1,7 +1,7 @@
 const mostrarPropiedad = (data) => {
   let arrayMostrar = [];
   for (let i = 0; i < data.length; i++) {
-    arrayMostrar.push({id: data[i].id, name: data[i].name, img: data[i].img});
+    arrayMostrar.push({name: data[i].name, img: data[i].img});
   }
   return arrayMostrar;
 };
@@ -12,13 +12,13 @@ const filtrarPropiedad = (data, tipo) => {
     .filter((ele) => {
       for (let i = 0 ; i < ele.weaknesses.length ; i++) {
         if (ele.weaknesses[i] === tipo) {
-          return true;
+          return 1;
         }
       }
-    })
-    .map((ele) => {
-      return `${ele.id} ${ele.name}`;
-    });
+    }); // sin mapear me muestra y no me sale indefinido
+  // .map((ele) => {
+  //   return `${ele.name} ${ele.img}`;
+  // });
   return arrayFiltrar;
 };
 
