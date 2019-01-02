@@ -10,8 +10,8 @@ const filtrarPropiedad = (data, tipo) => {
   let arrayFiltrar = [];
   arrayFiltrar = data
     .filter((ele) => {
-      for (let i = 0 ; i < ele.weaknesses.length ; i++) {
-        if (ele.weaknesses[i] === tipo) {
+      for (let i = 0 ; i < ele.type.length ; i++) {
+        if (ele.type[i] === tipo) {
           return 1;
         }
       }
