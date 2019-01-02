@@ -25,6 +25,7 @@ crearPlantilla(arrayMostrado);
 
 const filtrarTipo = () => {
   const arrayFiltrado = pokemon.filtrarPropiedad(arrayPokemon, tipoPokemon.value);
+  //console.log(arrayFiltrado);
   if(tipoPokemon.value === 'Selecciona tipo pokemon'){
     crearPlantilla(arrayMostrado);
   }else {
