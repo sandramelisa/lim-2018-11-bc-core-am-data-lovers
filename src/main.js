@@ -7,6 +7,7 @@ const arrayPokemon = POKEMON.pokemon;
 // {name: 'Ranma', img: 'https://pm1.narvii.com/6710/0889d3e651aa184f522788d0df070ab304757309_hq.jpg'}];
 
 let arrayMostrado = pokemon.mostrarPropiedad(arrayPokemon);
+const arrayVacio = [];
 
 const crearPlantilla = (data) => {
   let plantilla = '';
@@ -26,11 +27,12 @@ crearPlantilla(arrayMostrado);
 const filtrarTipo = () => {
   const arrayFiltrado = pokemon.filtrarPropiedad(arrayPokemon, tipoPokemon.value);
   //console.log(arrayFiltrado);
+  crearPlantilla(arrayFiltrado);
   if(tipoPokemon.value === 'Selecciona tipo pokemon'){
-    crearPlantilla(arrayMostrado);
-  }else {
-    crearPlantilla(arrayFiltrado);
-    }
+    document.getElementById('region-kanto').innerHTML='';
+    crearPlantilla(arrayVacio);
+    alert("Debes seleccionar un tipo");
+  }
 };
 
 btnFiltrar.addEventListener('click', filtrarTipo);
