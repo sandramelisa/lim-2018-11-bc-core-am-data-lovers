@@ -19,9 +19,13 @@ Nuestro producto ayuda a mejorar la estrategia del usuario al manejar la informa
 
 
 ## **Prototipo de baja fidelidad(Sketch)**
+![Sketch](src/Sketch.JPG)
+
 
 ## **Prototipo de alta fidelidad((Figma)**
 Se usaron los colores azul y verde ya que son los colores que predominan en Pokémon GO además los usuarios a los que entrevistamos también indicaron que les gustaría ver la web con los mismos colores de la aplicación Pokémon GO.
+
+Asimismo el usuario pidió que la interfaz fuera ordenada y clara, con la pantalla por defecto cuando ingresaras con pocos datos principalmente que se viera la imagen de cada pokémon.
 
 
 #### Interfaz
@@ -33,7 +37,18 @@ Se usaron los colores azul y verde ya que son los colores que predominan en Pok�
 
 
 ## **Zeplin(link)**
+
+
+*web link*
+<https://zpl.io/Vkwe4pZ>  
+
+*app URI*  
+<zpl://screen?pid=5c2eded3bae2c22086c9fabe&sid=5c2edf791180cb21544c720c>
+
+*Project Link*  
 <https://zpl.io/VYGo6Nd>
+
+
 
 ## **Testeos de Usabilidad**
 * Usuario indico que el selector para escoger el tipo de pokemon debería estar a la izquierda del botón para filtrar y no a la derecha y se corrigió.
