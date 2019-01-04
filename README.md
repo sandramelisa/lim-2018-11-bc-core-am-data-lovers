@@ -33,6 +33,7 @@ Se usaron los colores azul y verde ya que son los colores que predominan en Pok�
 
 
 ## **Zeplin(link)**
+<https://zpl.io/VYGo6Nd>
 
 ## **Testeos de Usabilidad**
 * Usuario indico que el selector para escoger el tipo de pokemon debería estar a la izquierda del botón para filtrar y no a la derecha y se corrigió.
