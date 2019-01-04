@@ -1,4 +1,6 @@
 # **Guía de campeones Pokémon GO**
+[Definición de producto](#Definición de producto)  
+[Historias de usuario](#Historias de usuario)
 ## **Definición de producto**
 Hemos construido una página web que sirva como herramienta para mejorar el  desempeño del jugador habitual de Pokémon GO quien vendría a ser nuestro usuario objetivo.
 
