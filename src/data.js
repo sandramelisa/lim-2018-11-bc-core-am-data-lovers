@@ -22,6 +22,11 @@ const filtrarPropiedad = (data, tipo) => {
   return arrayFiltrar;
 };
 
+const ordenarPropiedad = (data) => {
+  let arrayOrdenar = [];
+
+}
+
 window.pokemon = {
   mostrarPropiedad,
   filtrarPropiedad,
