@@ -1,7 +1,8 @@
 # **Guía de campeones Pokémon GO**
-[Definición de producto](#Definición de producto)  
-[Historias de usuario](#Historias de usuario)
-## **Definición de producto**
+## **Indice**
+[Definición de producto](#id=1)  
+[Historias de usuario](#id=2)
+## **Definición de producto**<a name="id1"></a>
 Hemos construido una página web que sirva como herramienta para mejorar el  desempeño del jugador habitual de Pokémon GO quien vendría a ser nuestro usuario objetivo.
 
 Para diseñar esta web nos basamos en las entrevistas que realizamos a jugadores habituales de Pokémon GO   indagando sobre sus problemas más frecuentes y preguntándoles como creían ellos que mejoraría su experiencia y desempeño al jugar.
@@ -10,7 +11,7 @@ Sus respuestas indicaron que necesitaban ver la  información de pokemones prese
 
 Nuestro producto ayuda a mejorar la estrategia del usuario al manejar la información más requerida o relevante para  ellos además les ahorra tiempo al no tener que analizar toda la informacion y retenerla por ellos mismos.Nuestro usuario tendría la información mostrada en nuestra página a manera de guia al jugar Pokémon GO.
 
-## **Historias de usuario**
+## **Historias de usuario**<a name="id2"></a>
 * *Mostrar Data*: Según usuarios desean que se muestre por defecto en la web al ingresar solo información relevante como la imagen y el nombre para que sea más ordenada y simple de usar.
 
 * *Filtrar Data*: Los usuarios indicaron que les gustaría un  filtro por tipo de pokemon porque conocer esta información les sería útil antes de empezar a jugar Pokemon GO.
