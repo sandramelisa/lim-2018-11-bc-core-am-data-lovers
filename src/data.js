@@ -24,6 +24,7 @@ const filtrarPropiedad = (data, tipo) => {
 
 const ordenarPropiedad = (data) => {
   let arrayOrdenar = [];
+  
 
 }
 

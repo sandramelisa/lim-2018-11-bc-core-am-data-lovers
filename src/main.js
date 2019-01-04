@@ -6,7 +6,7 @@ const arrayPokemon = POKEMON.pokemon;
 // {name: 'Goku', img: 'https://img.peru21.pe/files/article_content_ec_fotos/uploads/2017/08/09/598b925b3f334.jpeg'},
 // {name: 'Ranma', img: 'https://pm1.narvii.com/6710/0889d3e651aa184f522788d0df070ab304757309_hq.jpg'}];
 
-let arrayMostrado = pokemon.mostrarPropiedad(arrayPokemon);
+const arrayMostrado = pokemon.mostrarPropiedad(arrayPokemon);
 const arrayVacio = [];
 
 const crearPlantilla = (data) => {
@@ -25,14 +25,29 @@ const crearPlantilla = (data) => {
 crearPlantilla(arrayMostrado);
 
 const filtrarTipo = () => {
-  const arrayFiltrado = pokemon.filtrarPropiedad(arrayPokemon, tipoPokemon.value);
-  //console.log(arrayFiltrado);
-  crearPlantilla(arrayFiltrado);
-  if(tipoPokemon.value === 'Selecciona tipo pokemon'){
-    document.getElementById('region-kanto').innerHTML='';
-    crearPlantilla(arrayVacio);
+
+  if(tipoPokemon.value === 'Selected'){
+    crearPlantilla(arrayMostrado);
     alert("Debes seleccionar un tipo");
+  }else{
+    const arrayFiltrado = pokemon.filtrarPropiedad(arrayPokemon, tipoPokemon.value);
+    document.getElementById('region-kanto').innerHTML='';
+    crearPlantilla(arrayFiltrado);
   }
 };
 
 btnFiltrar.addEventListener('click', filtrarTipo);
+
+
+const numeros = [8,6,5,4,8,53,4,2,0,1,8];
+const letras = ['f','s','a','z','j','d'];
+const arrObjetos = [{nombre:'Alexis', apellido:'Fernandez'}, {nombre:'Oscar', apellido:'Pescoran'}];
+console.log(numeros);
+console.log(letras);
+console.log(arrObjetos);
+numeros.sort();
+letras.sort();
+arrObjetos.sort((a,b) => {return b.nombre - a.nombre});
+console.log(numeros);
+console.log(letras);
+console.log(arrObjetos);
