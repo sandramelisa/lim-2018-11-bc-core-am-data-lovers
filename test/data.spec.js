@@ -41,4 +41,9 @@ describe('pokemon', () => {
       expect(window.pokemon.filtrarPropiedad(input, type)).toEqual(output);
     });
   });
+  describe('pokemon.ordenarPropiedad', () => {
+    it('is a function', () => {
+      expect(typeof window.pokemon.ordenarPropiedad).toBe('function');
+    });
+  });  
 });
