@@ -35,9 +35,11 @@ Nuestro producto ayuda a mejorar la estrategia del usuario al manejar la informa
 
 
 ## Prototipo de alta fidelidad Figma
-Se usaron los colores azul y verde ya que son los colores que predominan en Pokémon GO además los usuarios a los que entrevistamos también indicaron que les gustaría ver la web con los mismos colores de la aplicación Pokémon GO.
+Se usaron los colores azul y verde ya que son los colores que predominan en Pokémon GO además los usuarios a los que entrevistamos también indicaron que les gustaría ver nuestra  web con los mismos colores del juego.
 
-Asimismo el usuario pidió que la interfaz fuera ordenada y clara, con la pantalla por defecto cuando ingresaras con pocos datos principalmente que se viera la imagen de cada pokémon.
+Asimismo el usuario pidió que la interfaz fuera ordenada y clara, con la pantalla por defecto cuando ingresaras con pocos datos principalmente que se viera la imagen de cada pokémon y su nombre.
+
+Además se respeto la identidad gráfica del logo del juego para que nuestro producto fuera facilmente identificable por los usuarios de Pokémon GO.
 
 
 #### Interfaz
