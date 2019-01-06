@@ -33,16 +33,15 @@ Nuestro producto ayuda a mejorar la estrategia del usuario al manejar la informa
 ## Prototipo de baja fidelidad Sketch
 Se realizó siguiendo como pauta las historias de usuario que resultaron de las entrevistas a los jugadores de Pokemón GO y luego se fueron modificando a través de las iteraciones con los testeos de usabilidad.
 
-***Sketch original***
+***Sketch1 original***
 ![sketch1](src/sketch1.jpeg)
 
-***Sketch después primer test de usabilidad***
+
+***Sketch2 iteración***   
 ![sketch2](src/sketch2.jpeg)
 
-
-
-
-
+***Sketch3 iteración***    
+![sketch3](src/sketch3.jpeg)
 
 
 ## Prototipo de alta fidelidad Figma
