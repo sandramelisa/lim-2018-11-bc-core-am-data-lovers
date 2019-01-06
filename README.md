@@ -25,7 +25,7 @@ Nuestro producto ayuda a mejorar la estrategia del usuario al manejar la informa
 
 * *Filtrar Data*: Los usuarios indicaron que les gustaría un  filtro por tipo de pokemon porque conocer esta información les sería útil antes de empezar a jugar Pokemon GO.
 
-* *Ordenar Data*: Usuarios desean que se les permita ordenar la data por avg_spawns(average spawn) ya que al saber la probabilidad de que vean un pokémon les ayudaría a armar su estrategia de juego.
+* *Ordenar Data*: Usuarios desean que se les permita ordenar la data de manera alfabética ascendente(A-Z) y alfabética descendente(Z-A) ya que les ayudaría a encontrar más rápido el pokemón que les interesa.
 
 * *Calcular Data*:Los jugadores de Pokémon GO indicaron que les ayudaría saber según  spawn_time el número de  pokemones que salgan probablemente en la mañana,tarde y noche.
 
