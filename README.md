@@ -50,8 +50,7 @@ Asimismo el usuario pidió que la interfaz fuera ordenada y clara, con la pantal
 
 ## Zeplin link
 
-
-*web link*
+*web link*  
 <https://zpl.io/Vkwe4pZ>  
 
 *app URI*  
@@ -62,7 +61,10 @@ Asimismo el usuario pidió que la interfaz fuera ordenada y clara, con la pantal
 
 
 
-## Testeos de Usabilidad
-* Usuario indico que el selector para escoger el tipo de pokemon debería estar a la izquierda del botón para filtrar y no a la derecha y se corrigió.
+## Testeos de Usabilidad  
 
-* En la pantalla  que sale por defecto al ingresar a la web(en el prototipo de baja fidelidad) habíamos colocado imagen de cada pokemon con nombre de cada pokemon,probabilidad de verlo(avg_spawn) y tipo de pokemon pero se  nos indico que sería más claro si al ingresar solo se veía la imagen del pokemon con su nombre lo cual corregimos.
+* Para la historia de usuario 1 ,mostrar data,en la pantalla  que sale por defecto al ingresar a la web(en el prototipo de baja fidelidad) habíamos colocado imagen de cada pokemon con nombre de cada pokemon,probabilidad de verlo(avg_spawn) y tipo de pokemon pero usuario nos indico que sería más claro si al ingresar solo se veía la imagen del pokemon con su nombre, lo cual corregimos.
+
+* En historia de usuario 2,filtrar data,usuario indico que el selector para escoger el tipo de pokemon debería estar a la izquierda del botón para filtrar y no a la derecha ya que era más intuitivo asi que se cambió.
+
+* Asimismo en la historia de usuario 2,filtrar data, indicaron que en el campo de selección se debía agregar la información que indique incluir tipo de pokémon ya que el botón del costado que tenía por nombre filtrar no daba muchas pistas sobre la función que esta realizaba, por lo que se agrego la informacion al selector de pokémon y se puso en el botón correspondiente solo la palabra OK.
