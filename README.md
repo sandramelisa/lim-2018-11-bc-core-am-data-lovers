@@ -4,14 +4,14 @@
 
 * [Definición de producto](#Definición-de-producto)
 * [Historias de usuario](#Historias-de-usuario)
-* [Prototipo de baja fidelidad(Sketch)](#Prototipo-de-baja-fidelidad(Sketch)
-* [Prototipo de alta fidelidad((Figma)](#Prototipo de alta fidelidad((Figma)
+* [Prototipo de baja fidelidad(Sketch)](#Prototipo-de-baja-fidelidad-Sketch)
+* [Prototipo de alta fidelidad(Figma)](#Prototipo-de-alta-fidelidad-Figma)
 * [Zeplin(link)](#Zeplin(link)
 * [Testeos de Usabilidad](#Testeos de Usabilidad)
 
 ***
 
-## Definición de producto 
+## Definición de producto
 Hemos construido una página web que sirva como herramienta para mejorar el  desempeño del jugador habitual de Pokémon GO quien vendría a ser nuestro usuario objetivo.
 
 Para diseñar esta web nos basamos en las entrevistas que realizamos a jugadores habituales de Pokémon GO   indagando sobre sus problemas más frecuentes y preguntándoles como creían ellos que mejoraría su experiencia y desempeño al jugar.
@@ -34,7 +34,7 @@ Nuestro producto ayuda a mejorar la estrategia del usuario al manejar la informa
 ![Sketch](src/Sketch.JPG)
 
 
-## **Prototipo de alta fidelidad((Figma)**
+## **Prototipo de alta fidelidad(Figma)**
 Se usaron los colores azul y verde ya que son los colores que predominan en Pokémon GO además los usuarios a los que entrevistamos también indicaron que les gustaría ver la web con los mismos colores de la aplicación Pokémon GO.
 
 Asimismo el usuario pidió que la interfaz fuera ordenada y clara, con la pantalla por defecto cuando ingresaras con pocos datos principalmente que se viera la imagen de cada pokémon.
