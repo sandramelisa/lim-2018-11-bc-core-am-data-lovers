@@ -4,8 +4,8 @@
 
 * [Definición de producto](#Definición-de-producto)
 * [Historias de usuario](#Historias-de-usuario)
-* [Prototipo de baja fidelidad-Sketch](#Prototipo-de-baja-fidelidad-Sketch)
-* [Prototipo de alta fidelidad-Figma](#Prototipo-de-alta-fidelidad-Figma)
+* [Prototipo de baja fidelidad Sketch](#Prototipo-de-baja-fidelidad-Sketch)
+* [Prototipo de alta fidelidad Figma](#Prototipo-de-alta-fidelidad-Figma)
 * [Zeplin link](#Zeplin-link)
 * [Testeos de Usabilidad](#Testeos-de-Usabilidad)
 
@@ -30,11 +30,11 @@ Nuestro producto ayuda a mejorar la estrategia del usuario al manejar la informa
 * *Calcular Data*:Los jugadores de Pokémon GO indicaron que les ayudaría saber según  spawn_time el número de  pokemones que salgan probablemente en la mañana,tarde y noche.
 
 
-## **Prototipo de baja fidelidad(Sketch)**
+## Prototipo de baja fidelidad Sketch
 ![Sketch](src/Sketch.JPG)
 
 
-## **Prototipo de alta fidelidad(Figma)**
+## Prototipo de alta fidelidad Figma
 Se usaron los colores azul y verde ya que son los colores que predominan en Pokémon GO además los usuarios a los que entrevistamos también indicaron que les gustaría ver la web con los mismos colores de la aplicación Pokémon GO.
 
 Asimismo el usuario pidió que la interfaz fuera ordenada y clara, con la pantalla por defecto cuando ingresaras con pocos datos principalmente que se viera la imagen de cada pokémon.
@@ -48,7 +48,7 @@ Asimismo el usuario pidió que la interfaz fuera ordenada y clara, con la pantal
 
 
 
-## **Zeplin(link)**
+## Zeplin link
 
 
 *web link*
@@ -62,7 +62,7 @@ Asimismo el usuario pidió que la interfaz fuera ordenada y clara, con la pantal
 
 
 
-## **Testeos de Usabilidad**
+## Testeos de Usabilidad
 * Usuario indico que el selector para escoger el tipo de pokemon debería estar a la izquierda del botón para filtrar y no a la derecha y se corrigió.
 
 * En la pantalla  que sale por defecto al ingresar a la web(en el prototipo de baja fidelidad) habíamos colocado imagen de cada pokemon con nombre de cada pokemon,probabilidad de verlo(avg_spawn) y tipo de pokemon pero se  nos indico que sería más claro si al ingresar solo se veía la imagen del pokemon con su nombre lo cual corregimos.
