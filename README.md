@@ -53,10 +53,11 @@ Además se respeto la identidad gráfica del logo del juego para que nuestro pro
 
 
 #### Interfaz
-![Interfaz](src/Interfaz.PNG)
+![Figma](src/Figma.PNG)
+
 
 #### Interfaz en iphone
-![Interfaz](src/Interfaz iphone.PNG)
+
 
 
 ## Zeplin link
