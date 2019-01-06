@@ -33,8 +33,12 @@ Nuestro producto ayuda a mejorar la estrategia del usuario al manejar la informa
 ## Prototipo de baja fidelidad Sketch
 Se realizó siguiendo como pauta las historias de usuario que resultaron de las entrevistas a los jugadores de Pokemón GO y luego se fueron modificando a través de las iteraciones con los testeos de usabilidad.
 
+***Sketch original***
+![sketch1](src/sketch1.jpeg)
 
-![Sketch](src/Sketch.JPG)
+
+
+
 
 
 ## Prototipo de alta fidelidad Figma
@@ -52,7 +56,6 @@ Además se respeto la identidad gráfica del logo del juego para que nuestro pro
 ![Interfaz](src/Interfaz iphone.PNG)
 
 
-
 ## Zeplin link
 
 *web link*  
@@ -63,8 +66,6 @@ Además se respeto la identidad gráfica del logo del juego para que nuestro pro
 
 *Project Link*  
 <https://zpl.io/VYGo6Nd>
-
-
 
 ## Testeos de Usabilidad  
 
