@@ -36,6 +36,10 @@ Se realizó siguiendo como pauta las historias de usuario que resultaron de las 
 ***Sketch original***
 ![sketch1](src/sketch1.jpeg)
 
+***Sketch después primer test de usabilidad***
+![sketch2](src/sketch2.jpeg)
+
+
 
 
 
