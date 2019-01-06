@@ -4,11 +4,14 @@
 
 * [Definición de producto](#Definición-de-producto)
 * [Historias de usuario](#Historias-de-usuario)
-
+* [Prototipo de baja fidelidad(Sketch)](#Prototipo-de-baja-fidelidad(Sketch)
+* [Prototipo de alta fidelidad((Figma)](#Prototipo de alta fidelidad((Figma)
+* [Zeplin(link)](#Zeplin(link)
+* [Testeos de Usabilidad](#Testeos de Usabilidad)
 
 ***
 
-## Definición de producto  
+## Definición de producto 
 Hemos construido una página web que sirva como herramienta para mejorar el  desempeño del jugador habitual de Pokémon GO quien vendría a ser nuestro usuario objetivo.
 
 Para diseñar esta web nos basamos en las entrevistas que realizamos a jugadores habituales de Pokémon GO   indagando sobre sus problemas más frecuentes y preguntándoles como creían ellos que mejoraría su experiencia y desempeño al jugar.
