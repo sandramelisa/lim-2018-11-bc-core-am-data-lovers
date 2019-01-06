@@ -4,9 +4,9 @@
 
 * [Definición de producto](#Definición-de-producto)
 * [Historias de usuario](#Historias-de-usuario)
-* [Prototipo de baja fidelidad(Sketch)](#Prototipo-de-baja-fidelidad-Sketch)
-* [Prototipo de alta fidelidad(Figma)](#Prototipo-de-alta-fidelidad-Figma)
-* [Zeplin(link)](#Zeplin-link)
+* [Prototipo de baja fidelidad-Sketch](#Prototipo-de-baja-fidelidad-Sketch)
+* [Prototipo de alta fidelidad-Figma](#Prototipo-de-alta-fidelidad-Figma)
+* [Zeplin link](#Zeplin-link)
 * [Testeos de Usabilidad](#Testeos-de-Usabilidad)
 
 ***
