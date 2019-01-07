@@ -45,19 +45,20 @@ Se realizó siguiendo como pauta las historias de usuario que resultaron de las 
 
 
 ## Prototipo de alta fidelidad Figma
-Se usaron los colores azul y verde ya que son los colores que predominan en Pokémon GO además los usuarios a los que entrevistamos también indicaron que les gustaría ver nuestra  web con los mismos colores del juego.
+Se usaron los colores azul y verde claro ya que son los colores que predominan en el juego Pokémon GO además los usuarios a los que entrevistamos también indicaron que les gustaría ver nuestra  web con los mismos colores del juego de esta manera se respeto la identidad gráfica de la app del juego para que nuestro producto fuera fácilmente identificable por todos los jugadores habiltuales de Pokémon GO.
 
-Asimismo el usuario pidió que la interfaz fuera ordenada y clara, con la pantalla por defecto cuando ingresaras con pocos datos principalmente que se viera la imagen de cada pokémon y su nombre.
+Asimismo el usuario pidió que la interfaz fuera ordenada y clara, con la pantalla por defecto cuando ingresaran con pocos datos y que se viera principalmente la imagen de cada pokémon y su nombre.Para mantener el orden y la misma distancia en cada imagen se pusieron las imágenes con formato grid.
 
-Además se respeto la identidad gráfica del logo del juego para que nuestro producto fuera facilmente identificable por los usuarios de Pokémon GO.
+Al ser los colores principales de nuestra web claros, se escogio que las  letras fueran  oscuras para que haya contraste y así los usuarios no tengan que forzar la vista.
 
+Para nuestro usuario lo parte principal ya que es lo que más usará de nuestra página  son los selectores por eso se puso a manera de barra al empezar la página y en letra grande.
 
 #### Interfaz
 ![Figma](src/Figma.PNG)
 
 
 #### Interfaz en iphone  
-![iphone](src/iphone.PNG) 
+![iphone](src/iphone.PNG)
 
 ## Zeplin link
 
