@@ -5,6 +5,7 @@ const btnCalcular = document.getElementById('btn-calcular');
 const tipoPokemon = document.getElementById('tipo-pokemon');
 const ordenPokemon = document.getElementById('orden-pokemon');
 const tipoHuevo = document.getElementById('tipo-huevo');
+
 const arrayPokemon = POKEMON.pokemon;
 
 const arrayVacio = [];
