@@ -7,34 +7,28 @@ const mostrarPropiedad = (data) => {
 };
 
 const filtrarPropiedad = (data, tipo) => {
-  let ok = 0;
   let arrayFiltrar = [];
   arrayFiltrar = data
     .filter((ele) => {
       for (let i = 0 ; i < ele.type.length ; i++) {
         if (ele.type[i] === tipo) {
-          ok = 1
-          return 1;
+            return 1;
         }
       }
     });
-  if (ok === 1) {
-    return arrayFiltrar;
-  } else {
-    return data;
-  }
+  return arrayFiltrar;
 };
 
-const ordenarPropiedad = (data, tipo) => {
+const ordenarPropiedad = (data) => {
   let arrayOrdenar = [];
-  for(let i = 0 ; i < data.length ; i++){
-    arrayOrdenar.push({name: data[i].name, img: data[i].img, type: data[i].type});
+  for (let i = 0 ; i < data.length ; i++) {
+    arrayOrdenar.push({name: data[i].name, img: data[i].img});
   }
-  arrayOrdenar.sort((prev, next) =>{
-    if(prev.name > next.name){
+  arrayOrdenar.sort((prev, next) => {
+    if (prev.name > next.name) {
       return 1;
     }
-    if(prev.name < next.name){
+    if (prev.name < next.name) {
       return -1;
     }
     return 0;
@@ -42,8 +36,19 @@ const ordenarPropiedad = (data, tipo) => {
   return arrayOrdenar;
 };
 
+const calcularPropiedad = (data, tipo) => {
+  let cantidad = 0;
+data.filter((ele) => {
+	if(ele.egg === tipo){
+    cantidad ++;
+    return 1}
+});
+return cantidad;
+};
+
 window.pokemon = {
   mostrarPropiedad,
   filtrarPropiedad,
   ordenarPropiedad,
+  calcularPropiedad,
 };

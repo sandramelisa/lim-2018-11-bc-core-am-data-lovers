@@ -71,3 +71,7 @@ figure.frontal{
   display: block;
   backface-visibility: hidden;
 } */
+#cantidad-huevos{
+  font-size: 30px;
+  color : blue;
+}
