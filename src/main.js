@@ -48,7 +48,7 @@ const ordenarPokemon = () => {
 const calcularHuevo = () => {
   crearPlantilla(arrayVacio);
   const cantidadHuevo = pokemon.calcularPropiedad(arrayPokemon, tipoHuevo.value);
-  document.getElementById('cantidad-huevos').innerHTML = `La cantidad de pokemon que requiere que camines ${tipoHuevo.value} son ${cantidadHuevo}`;
+  document.getElementById('cantidad-huevos').innerHTML = `La cantidad de pokemon de ${tipoHuevo.value} es ${cantidadHuevo}`;
 };
 
 btnFiltrar.addEventListener('click', filtrarTipo);
