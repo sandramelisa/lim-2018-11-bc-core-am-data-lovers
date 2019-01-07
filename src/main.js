@@ -26,14 +26,16 @@ const crearPlantilla = (data) => {
 crearPlantilla(arrayMostrado);
 
 const filtrarTipo = () => {
+  document.getElementById('cantidad-huevos').innerHTML = '';
   const arrayFiltrado = pokemon.filtrarPropiedad(arrayPokemon, tipoPokemon.value);
   crearPlantilla(arrayFiltrado);
-  if(tipoPokemon.value === 'Selected') {
+  if (tipoPokemon.value === 'Selected') {
     crearPlantilla(arrayMostrado);
   }
 };
 
 const ordenarPokemon = () => {
+  document.getElementById('cantidad-huevos').innerHTML = '';
   const arrayOrdenado = pokemon.ordenarPropiedad(arrayPokemon, tipoPokemon.value);
   if (ordenPokemon.value === 'Az') {
     crearPlantilla(arrayOrdenado);
@@ -45,8 +47,8 @@ const ordenarPokemon = () => {
 
 const calcularHuevo = () => {
   crearPlantilla(arrayVacio);
-  const cantidadHuevo = pokemon.calcularPropiedad(arrayPokemon, tipoHuevo.value)
-  document.getElementById('cantidad-huevos').innerHTML = `La cantidad de pokemon que requiere que camines ${tipoHuevo.value} son ${cantidadHuevo}`
+  const cantidadHuevo = pokemon.calcularPropiedad(arrayPokemon, tipoHuevo.value);
+  document.getElementById('cantidad-huevos').innerHTML = `La cantidad de pokemon que requiere que camines ${tipoHuevo.value} son ${cantidadHuevo}`;
 };
 
 btnFiltrar.addEventListener('click', filtrarTipo);

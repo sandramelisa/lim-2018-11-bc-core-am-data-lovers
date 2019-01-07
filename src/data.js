@@ -12,7 +12,7 @@ const filtrarPropiedad = (data, tipo) => {
     .filter((ele) => {
       for (let i = 0 ; i < ele.type.length ; i++) {
         if (ele.type[i] === tipo) {
-            return 1;
+          return 1;
         }
       }
     });
@@ -38,12 +38,13 @@ const ordenarPropiedad = (data) => {
 
 const calcularPropiedad = (data, tipo) => {
   let cantidad = 0;
-data.filter((ele) => {
-	if(ele.egg === tipo){
-    cantidad ++;
-    return 1}
-});
-return cantidad;
+  data.filter((ele) => {
+    if (ele.egg === tipo) {
+      cantidad ++;
+      return 1;
+    }
+  });
+  return cantidad;
 };
 
 window.pokemon = {
